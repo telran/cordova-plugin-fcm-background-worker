@@ -10,9 +10,6 @@
     "ecosystem:cordova",
     "ecosystem:phonegap",
     "cordova-ios",
-    "cordova-android",
-    "cordova-windows",
-    "cordova-browser"
   ],
   "homepage": "https://github.com/telran/cordova-plugin-fcm-background-worker",
   "moduleType": [],
