@@ -2,7 +2,7 @@
   "name": "cordova-plugin-fcm-background-worker",
   "description": "Register and receive push notifications.",
   "types": "./types/index.d.ts",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "homepage": "http://github.com/telran/cordova-plugin-fcm-background-worker#readme",
   "repository": {
     "type": "git",
