@@ -1,5 +1,6 @@
-// Type definitions for phonegap-plugin-push
+// Type definitions for phonegap-plugin-push and cordova-plugin-fcm-background-worker
 // Project: https://github.com/phonegap/phonegap-plugin-push
+// Project: https://github.com/telran/cordova-plugin-fcm-background-worker
 // Definitions by: Frederico Galvão <https://github.com/fredgalvao>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
 
@@ -130,7 +131,6 @@ declare namespace PhonegapPluginPush {
 			icon?: string
 			/**
 			 * Sets the background color of the small icon on Android 5.0 and greater.
-			 * Supported Formats - http://developer.android.com/reference/android/graphics/Color.html#parseColor(java.lang.String)
 			 */
 			iconColor?: string
 			/**
@@ -189,7 +189,6 @@ declare namespace PhonegapPluginPush {
 			clearBadge?: boolean | string
 			/**
 			 * The data required in order to enable Action Buttons for iOS.
-			 * Action Buttons on iOS - https://github.com/phonegap/phonegap-plugin-push/blob/master/docs/PAYLOAD.md#action-buttons-1
 			 */
 			categories?: CategoryArray
 			/**

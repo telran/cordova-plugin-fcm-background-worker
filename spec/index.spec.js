@@ -14,7 +14,7 @@ var cordova = require('./helper/cordova'),
  * Specification.
  */
 
-describe('phonegap-plugin-push', function () {
+describe('cordova-plugin-fcm-background-worker', function () {
   beforeEach(function () {
     options = { android: {}, ios: {}, windows: {} };
     execWin = jasmine.createSpy();
